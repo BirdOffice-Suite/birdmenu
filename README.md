@@ -28,5 +28,7 @@ Children: ask your parents before using this program, so that you don't get in t
 Lawyers: For licensing information and disclaimers not shown here, please read `LICENSE`.
 
 # Regarding AI code
-BirdMenu was written by hand originally, but the GUI was written by Google Gemini.
+BirdMenu was originally written by hand, but the `tkinter` GUI was written by Google Gemini.
+
+
 
