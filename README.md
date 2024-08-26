@@ -19,6 +19,8 @@ We are NOT responsible for any adverse reactions caused by reading menus produce
 
 Some items described by BirdMenu may be considered taboo in some cultures or conflict with your personal beliefs and values, including descriptions of consuming meat, including pigs and vague descriptions of human cannibalism. If this is problematic, you may avoid using BirdMenu or consider writing a fork that accomodates your beliefs, values, and culture. We apologize greatly for any offensive content produced by BirdMenu.
 
+Some sentences produced by BirdMenu may use the phrase "rotten denmark". This is not intended to be an insult and has no assigned meaning.
+
 Parents: please check out this program yourself before giving it to young children, who may be prone to repeating taboo and/or offensive content. This program may speak out automatically generated sentences upon request, which may include offensive or taboo content.
 
 Children: ask your parents before using this program, so that you don't get in trouble. Avoid running this program outside of your house, because it might make some people unhappy.
