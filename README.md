@@ -6,7 +6,7 @@ For an example menu created by BirdMenu, see `example.txt`.
 
 For base foods used in BirdMenu, see `food.json`.
 
-For condiments and other toppings, see `slime.json`.
+For condiments, toppings, and various adjectives, see `slime.json`.
 
 For desserts, see `dessert.json`.
 
