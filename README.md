@@ -17,7 +17,7 @@ Consult with an authorized medical professional before attempting to consume any
 
 We are NOT responsible for any adverse reactions caused by reading menus produced by BirdMenu or consuming foods described by BirdMenu.
 
-Some items described by BirdMenu may be considered taboo in some cultures or conflict with your personal beliefs and values, including descriptions of consuming meat, including pigs and vague descriptions of human cannibalism. If this is problematic, you may avoid using BirdMenu or consider writing a fork that accomodates your beliefs, values, and culture. We apologize greatly for any offensive content produced by BirdMenu.
+Some items described by BirdMenu may be considered taboo in some cultures or conflict with your personal beliefs and values, including descriptions of consuming meat, including pigs and vague descriptions of human cannibalism. If this is problematic, you may avoid using BirdMenu or consider writing a fork that accomodates for your beliefs, values, and culture. We apologize greatly for any offensive content produced by BirdMenu.
 
 Some sentences produced by BirdMenu may use the phrase "rotten denmark". This is not intended to be an insult and has no assigned meaning.
 
