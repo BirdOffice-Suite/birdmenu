@@ -26,3 +26,7 @@ Parents: please check out this program yourself before giving it to young childr
 Children: ask your parents before using this program, so that you don't get in trouble. Avoid running this program outside of your house, because it might make some people unhappy.
 
 Lawyers: For licensing information and disclaimers not shown here, please read `LICENSE`.
+
+# Regarding AI code
+BirdMenu was written by hand originally, but the GUI was written by Google Gemini.
+
