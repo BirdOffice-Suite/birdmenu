@@ -1,13 +1,13 @@
 import tkinter as tk
 from random import choice
-import pyttsx3
+import pyttsx3, requests, json
 
 engine = pyttsx3.init()
 
 slime = ["peanut butter", "garlic butter", "mayo", "ketchup", "lard", "liquid gallium", "orange juice", "oil", "fart juice", "rotten denmark", "skunk juice", "moldy", "pickle", "mustard", "rancid",\
          "spoiled"]
 main_course = ["sandwich", "burger", "chicken nuggets", "toilet paper", "bacon sandwich", "dead possum", "onion", "roadkill", "slushie"]
-dessert = ["butter", "cookie", "potting soil", "bacon", "fbi agent", "cloud", "water", "mold", "cia agent", "nsa agent", "department of justice lawyer"]
+dessert = json.loads(requests.get("https://raw.githubusercontent.com/BirdOffice-Suite/birdmenu/main/dessert.json"))
 
 use_voice = 1
 
