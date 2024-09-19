@@ -1,13 +1,13 @@
 import tkinter as tk
 from random import choice
-import pyttsx3, requests, json
+import pyttsx3
 
 engine = pyttsx3.init()
 
 slime = ["peanut butter", "garlic butter", "mayo", "ketchup", "lard", "liquid gallium", "orange juice", "oil", "fart juice", "rotten denmark", "skunk juice", "moldy", "pickle", "mustard", "rancid",\
-         "spoiled"]
-main_course = ["sandwich", "burger", "chicken nuggets", "toilet paper", "bacon sandwich", "dead possum", "onion", "roadkill", "slushie"]
-dessert = json.loads(requests.get("https://raw.githubusercontent.com/BirdOffice-Suite/birdmenu/main/dessert.json"))
+         "spoiled", "clippy", "whipped cream"]
+main_course = ["sandwich", "burger", "chicken nuggets", "toilet paper", "bacon sandwich", "dead possum", "onion", "roadkill", "slushie", "potato", "earthworm"]
+dessert = ["butter", "cookie", "potting soil", "bacon", "fbi agent", "cloud", "water", "mold", "cia agent", "nsa agent", "department of justice lawyer", "car salesman", "waffle"]
 
 use_voice = 1
 
@@ -31,8 +31,8 @@ def speak_text():
 
 # Create the main window
 window = tk.Tk()
-window.title("BirdMenu v1.0")
-
+window.title("BirdMenu v24.10 Beta")
+window.minsize(width=0, height=500)
 # Create a text box to display the generated food combinations
 text_box = tk.Text(window)
 text_box.pack(expand=True, fill='both')
