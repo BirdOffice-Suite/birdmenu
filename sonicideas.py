@@ -2,12 +2,25 @@ import tkinter as tk
 from random import choice
 import pyttsx3
 
+# START DONATION CODE
+from tkinter import messagebox
+from random import randint
+import sys
+
+
+#if randint(0,3) == 1 and not "--no-popup" in sys.argv:
+    #messagebox.showinfo("BirdOffice 24.11", "Thank you for downloading BirdMenu! If you like this software, make sure to donate at www.mojavesoft.net/donate/!")
+
+
+# END DONATION CODE
+
+
 engine = pyttsx3.init()
 
 slime = ["peanut butter", "garlic butter", "mayo", "ketchup", "lard", "liquid gallium", "orange juice", "oil", "fart juice", "rotten denmark", "skunk juice", "moldy", "pickle", "mustard", "rancid",\
-         "spoiled", "clippy", "whipped cream"]
+         "spoiled", "clippy", "whipped cream", "mystery meat", "smelly"]
 main_course = ["sandwich", "burger", "chicken nuggets", "toilet paper", "bacon sandwich", "dead possum", "onion", "roadkill", "slushie", "potato", "earthworm"]
-dessert = ["butter", "cookie", "potting soil", "bacon", "fbi agent", "cloud", "water", "mold", "cia agent", "nsa agent", "department of justice lawyer", "car salesman", "waffle"]
+dessert = ["butter", "cookie", "potting soil", "bacon", "fbi agent", "cloud", "water", "mold", "cia agent", "nsa agent", "department of justice lawyer", "car salesman", "waffle", "cekukeim sauce"]
 
 use_voice = 1
 
@@ -31,17 +44,17 @@ def speak_text():
 
 # Create the main window
 window = tk.Tk()
-window.title("BirdMenu v24.10 Beta")
+window.title("BirdMenu v24.11")
 window.minsize(width=0, height=500)
 # Create a text box to display the generated food combinations
 text_box = tk.Text(window)
 text_box.pack(expand=True, fill='both')
 
 # Create buttons for generating text and speaking text
-generate_button = tk.Button(window, text="Generate Text", command=generate_text)
+generate_button = tk.Button(window, text="Generate Text", command=generate_text, bg="green", fg="white")
 generate_button.pack(side=tk.LEFT, expand=True, fill='both')
 
-speak_button = tk.Button(window, text="Speak Text", command=speak_text)
+speak_button = tk.Button(window, text="Speak Text", command=speak_text, bg="orange")
 speak_button.pack(side=tk.LEFT, expand=True, fill='both')
 
 window.mainloop()
